@@ -56,7 +56,7 @@ Several Machine Learning models are chosen to train the data and then the respec
 The Machine Learning Models chosen for training dataset are as follows:
 * Decision Tree Regression
 * Ridge Regression
-* Gradient Boosting Method
+* Gradient Boosting Method (GBM)
 * RandomForest Regression
 * Linear Regression
 * Stochastic Gradient Boosting
@@ -72,7 +72,10 @@ The Machine Learning Models chosen for training dataset are as follows:
 
 ### Choose the best ML Models for Prediction
 We can observe that, GBM and Ridge Regression gives very low value of Mean Squared Error. Hence, I have chosen these two ML models for the prediction.
+#### Visualize the results for Ridge Regression
 ![alt text][image5]
+
+#### Visualize the results for GBM
 ![alt text][image6]
 
 ### Conclusion
