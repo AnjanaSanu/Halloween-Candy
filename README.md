@@ -11,7 +11,7 @@ In this project, an analytical approach is developed using machine learning mode
 ### The Project
 The project includes two files:
 *	The Ipython notebook with the code [Notebook](https://github.com/AnjanaSanu/Halloween-Candy/blob/master/Halloween_Candy.ipynb)
-*	A writeup report
+*	A writeup report [Writeup](https://github.com/AnjanaSanu/Halloween-Candy/blob/master/WriteUp.md)
 
 ### Dataset and Repository
 The data set is located here:
