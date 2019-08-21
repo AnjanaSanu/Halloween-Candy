@@ -124,4 +124,4 @@ We can observe that, GBM and Ridge Regression gives very low value of Mean Squar
 ![alt text][image6]
 
 ### Conclusion
-From the above results we can visualize the feature importance and observe that 'chocolate' and 'sugarpercent' features have resulted in higher win percentage. Hence, I conclude that these two characteristics draw the customer sentiments and I hence I recommend to manufacture a new product with these ingredients in higher percentage for increased sale and win percentage.
+From the above results we can visualize the feature importance and observe that **Chocolate** and **Sugar Percentages** have resulted in higher win percentage. As a result, these two characteristics draw the customer sentiments. Hence, based on the analytical results, a new product with these ingredients might result in higher percentage for increased sale and win percentage.
