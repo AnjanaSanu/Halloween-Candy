@@ -29,7 +29,6 @@ The goals / steps of this project are the following:
 [image4]: ./images/visualize.PNG "Visualize the Performance of ML models"
 [image5]: ./images/Ridge_reg_result.PNG "Prediction Results by Ridge Regression Model"
 [image6]: ./images/GBM.PNG "Prediction Results by Gradient Boosting Method"
----
 
 ### Data Set Summary & Exploration
 candy-data.csv includes attributes for each candy along with its ranking. For binary variables, 1 means yes, 0 means no.
@@ -76,3 +75,5 @@ We can observe that, GBM and Ridge Regression gives very low value of Mean Squar
 ![alt text][image5]
 ![alt text][image6]
 
+### Conclusion
+From the above results we can visualize the feature importance and observe that 'chocolate' and 'sugarpercent' features have resulted in higher win percentage. Hence, I conclude that these two characteristics draw the customer sentiments and I hence I recommend to manufacture a new product with these ingredients in higher percentage for increased sale and win percentage.
