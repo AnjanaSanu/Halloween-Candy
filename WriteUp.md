@@ -56,8 +56,10 @@ Several Machine Learning models are chosen to train the data and then the respec
 The Machine Learning Models chosen for training the dataset and their corresponding RMSE values are as follows:
 ```
 _________________________________________________________________
-ML Model                             RMSE               =================================================================
-Decision Tree Regression            0.14178441724560673     ____________________________________________
+ML Model                             RMSE               
+=================================================================
+Decision Tree Regression            0.14178441724560673    
+_________________________________________________________________
 Ridge Regression                    0.0739015310936934
 _________________________________________________________________
 Gradient Boosting Method            0.013712782050027034
