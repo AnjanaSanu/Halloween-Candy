@@ -53,19 +53,34 @@ We can observe that, there is correlation between the features.
 ### Train the Machine Learning Models
 Several Machine Learning models are chosen to train the data and then the respective Root Mean Square Error is calculated. Top two Machine Learning Models with least Root Mean Sqaure Error are chosen and used for the prediction of product characteristics which drive customer sentiment and subsequently make a recommendation on a new product.
 
-The Machine Learning Models chosen for training dataset are as follows:
-* Decision Tree Regression
-* Ridge Regression
-* Gradient Boosting Method (GBM)
-* RandomForest Regression
-* Linear Regression
-* Stochastic Gradient Boosting
-* Polynomial Regression
-* Lasso Regression
-* LassoLars Regression
-* Bayesian Ridge Regression
-* Passive Aggressive Regression
-* ElasticNet Regression
+The Machine Learning Models chosen for training the dataset and their corresponding RMSE values are as follows:
+```
+_________________________________________________________________
+ML Model                             RMSE               =================================================================
+Decision Tree Regression            0.14178441724560673     ____________________________________________
+Ridge Regression                    0.0739015310936934
+_________________________________________________________________
+Gradient Boosting Method            0.013712782050027034
+_________________________________________________________________
+RandomForest Regression             0.11304629391092853
+_________________________________________________________________
+Linear Regression                   0.11969409813723213
+_________________________________________________________________
+Stochastic Gradient Boosting        0.12370483949079315
+_________________________________________________________________
+Polynomial Regression               0.4352861890608805
+_________________________________________________________________
+Lasso Regression                    0.11782913762827293
+_________________________________________________________________
+LassoLars Regression                0.1169753660793363
+_________________________________________________________________
+Bayesian Ridge Regression           0.11705993007034675
+_________________________________________________________________
+Passive Aggressive Regression       0.13186318750390263
+_________________________________________________________________
+ElasticNet Regression               0.14645990270419076
+=================================================================
+```
 
 ### Visualize the Performance of ML models
 ![alt text][image4]
