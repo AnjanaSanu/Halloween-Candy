@@ -33,7 +33,35 @@ The goals / steps of this project are the following:
 ### Data Set Summary & Exploration
 candy-data.csv includes attributes for each candy along with its ranking. For binary variables, 1 means yes, 0 means no.
 The data contains the following fields:
-![alt text][image3]
+```
+_________________________________________________________________
+Header                    Description               
+=================================================================
+chocolate            Does it contain chocolate?   
+_________________________________________________________________
+fruity               Is it fruit flavored?
+_________________________________________________________________
+caramel              Is there caramel in the candy?
+_________________________________________________________________
+peanutalmondy        Does it contain peanuts, peanut butter or almonds?
+_________________________________________________________________
+nougat               Does it contain nougat?
+_________________________________________________________________
+crispedricewafer     Does it contain crisped rice, wafers, or a cookie component?
+_________________________________________________________________
+hard                 Is it a hard candy?
+_________________________________________________________________
+bar                  Is it a candy bar?
+_________________________________________________________________
+pluribus             Is it one of many candies in a bag or box?
+_________________________________________________________________
+sugarpercent         The percentile of sugar it falls under within the data set.
+_________________________________________________________________
+pricepercent         The unit price percentile compared to the rest of the set.
+_________________________________________________________________
+winpercent           The overall win percentage according to 269,000 matchups.
+=================================================================
+```
 
 The dataset consists of 85 rows and 13 features.
 The top 5 rows of the dataset is as shown below.
